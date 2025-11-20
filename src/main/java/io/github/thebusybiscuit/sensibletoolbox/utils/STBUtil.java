@@ -103,8 +103,15 @@ public final class STBUtil {
             return true;
         }
 
-        if (Tag.TALL_FLOWERS.isTagged(type)) {
-            return true;
+        // Check for tall flowers manually (Tag.TALL_FLOWERS removed in 1.21+)
+        switch (type) {
+            case SUNFLOWER:
+            case LILAC:
+            case ROSE_BUSH:
+            case PEONY:
+                return true;
+            default:
+                break;
         }
 
         switch (type) {

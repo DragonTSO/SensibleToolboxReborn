@@ -6,7 +6,7 @@
 > [!TIP]
 > This fork introduces many new features and enhancements while staying true to the plugin’s core principles. Whether you're automating farms, or building complex systems, STBR will continue provide a user-friendly experience!
 >
-> ### Supported MC Versions: 1.20+
+> ### Supported MC Versions: 1.20+ / 1.21+
 > 
 ## :gear: Key Features and Updates
 > [!IMPORTANT]

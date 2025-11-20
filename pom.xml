@@ -47,6 +47,11 @@
 
     <repositories>
         <repository>
+            <id>central</id>
+            <name>Maven Central</name>
+            <url>https://repo1.maven.org/maven2</url>
+        </repository>
+        <repository>
             <id>paper-repo</id>
             <url>https://repo.destroystokyo.com/repository/maven-public/</url>
         </repository>
@@ -198,7 +203,7 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.20.6-R0.1-SNAPSHOT</version>
+            <version>1.21-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
@@ -210,7 +215,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.dmulloy2</groupId>
+            <groupId>net.dmulloy2</groupId>
             <artifactId>ProtocolLib</artifactId>
             <version>5.1.0</version>
             <scope>provided</scope>

@@ -6,9 +6,10 @@ authors:
 - TheBusyBiscuit
 - Sefiraat
 - Bunnky
+- DragonDirt
 
 main: io.github.thebusybiscuit.sensibletoolbox.SensibleToolboxPlugin
-api-version: "1.20"
+api-version: "1.21"
 version: ${project.version}
 
 softdepend:

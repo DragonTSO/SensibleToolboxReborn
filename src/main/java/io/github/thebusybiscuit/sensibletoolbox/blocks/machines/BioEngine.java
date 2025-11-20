@@ -69,9 +69,11 @@ public class BioEngine extends Generator {
             fuelItems.addFuel(new ItemStack(flower), true, 11, 80);
         }
 
-        for (Material flower : Tag.TALL_FLOWERS.getValues()) {
-            fuelItems.addFuel(new ItemStack(flower), true, 11, 80);
-        }
+        // Tall flowers: SUNFLOWER, LILAC, ROSE_BUSH, PEONY
+        fuelItems.addFuel(new ItemStack(Material.SUNFLOWER), true, 11, 80);
+        fuelItems.addFuel(new ItemStack(Material.LILAC), true, 11, 80);
+        fuelItems.addFuel(new ItemStack(Material.ROSE_BUSH), true, 11, 80);
+        fuelItems.addFuel(new ItemStack(Material.PEONY), true, 11, 80);
 
         fuelItems.addFuel(new ItemStack(Material.RED_MUSHROOM), true, 11, 80);
         fuelItems.addFuel(new ItemStack(Material.BROWN_MUSHROOM), true, 11, 80);
